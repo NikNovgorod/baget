@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffe2b0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img:hover {
+  transform: rotateY(720deg);
+  transition: 4s;
+}
+
+.img-rotate {
+  transform: rotateY(720deg);
+  transition: 4s;
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.ul {
+  display: flex;
+  column-gap: 100px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+}
+
+a:hover {
+  font-style: 20px;
+  font-weight: bold;
+}
+
+.section-about {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 20px;
+  height: 640px;
+  background-image: url(../img/01-image-fon.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.section-about__block {
+  position: absolute;
+  width: 420px;
+  height: 190px;
+  border-radius: 10px;
+  z-index: 1;
+  top: 59%;
+  left: 51%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(244, 213, 178, 0.6) 0%,
+    rgba(234, 156, 65, 0.8) 100%
+  );
+  padding-top: 15px;
+}
+
+.section-about__border {
+  width: 90%;
+  height: 90%;
+  border: 0.5px solid black;
+  margin: 0 auto;
+  padding: 12px 0 0 22px;
+}
+
+.section-about__title {
+  font-size: 36px;
+  margin-bottom: 9px;
+  font-family: Philosopher, sans-serif;
+}
+
+.section-about__text {
+  text-align: left;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+}
+
+.section-description {
+  margin-bottom: 20px;
+}
+
+.section-description__icon-box {
+  display: flex;
+  justify-content: center;
+  column-gap: 76px;
+  margin-bottom: 20px;
+}
+
+.section-description__title {
+  font-size: 96px;
+  text-align: center;
+  font-family: Philosopher, sans-serif;
+}
+
+.red {
+  color: #f15b40;
+}
+
+.section-description__text {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.section-map {
+  margin-bottom: 20px;
+}
+
+.section-map__title {
+  text-align: center;
+  font-size: 36px;
+  font-family: Philosopher, sans-serif;
+  margin-bottom: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-bottom: 20px;
+}
+
+.line {
+  border: 0.5px solid #999999;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}

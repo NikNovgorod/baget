@@ -1,0 +1,283 @@
+/*----------------1040------------------*/
+@media (max-width: 1040px) {
+  .section-description__icon-box img {
+    width: 250px;
+  }
+
+  .section-description__icon-box {
+    column-gap: 50px;
+  }
+
+  .section-description__title {
+    font-size: 90px;
+  }
+
+  .section-description__text {
+    font-size: 18px;
+    width: 900px;
+  }
+}
+/*---------------930------------------*/
+
+@media (max-width: 930px) {
+  .section-about {
+    border-radius: 10px;
+    height: 440px;
+  }
+
+  .section-about__block {
+    width: 320px;
+    height: 150px;
+    border-radius: 5px;
+  }
+
+  .section-about__title {
+    font-size: 30px;
+    margin-bottom: 9px;
+  }
+
+  .section-about__text {
+    font-size: 10px;
+  }
+
+  .section-about__border {
+    padding: 10px 0 0 20px;
+  }
+
+  .section-description__icon-box {
+    column-gap: 76px;
+  }
+
+  .section-description__icon-box img {
+    width: 200px;
+  }
+
+  .section-description__icon-box {
+    column-gap: 40px;
+  }
+
+  .section-description__title {
+    font-size: 60px;
+  }
+
+  .section-description__text {
+    font-size: 14px;
+    width: 600px;
+  }
+
+  .section-map__title {
+    font-size: 30px;
+  }
+
+  .iframe {
+    width: 710px;
+    height: 400px;
+  }
+}
+
+/*---------------720-----------------*/
+
+@media (max-width: 720px) {
+  .section-about {
+    height: 340px;
+  }
+
+  .section-about__block {
+    width: 220px;
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  header {
+    margin-bottom: 15px;
+  }
+
+  .nav {
+    margin-bottom: 15px;
+  }
+
+  .ul {
+    column-gap: 50px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .section-about__title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .section-about__text {
+    font-size: 7px;
+  }
+
+  .section-about__border {
+    padding: 8px 0 0 15px;
+  }
+
+  .section-description__icon-box img {
+    width: 140px;
+  }
+
+  .section-description__icon-box {
+    column-gap: 30px;
+  }
+
+  .section-description__title {
+    font-size: 40px;
+  }
+
+  .section-description__text {
+    font-size: 12px;
+    width: 480px;
+  }
+
+  .section-map__title {
+    font-size: 24px;
+  }
+
+  .iframe {
+    width: 490px;
+    height: 300px;
+  }
+}
+
+/*----------------500--------------------*/
+
+@media (max-width: 500px) {
+  .section-about {
+    height: 240px;
+  }
+
+  .section-about__block {
+    width: 180px;
+    height: 80px;
+    padding-top: 7px;
+  }
+
+  .section-about__title {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+
+  .section-about__text {
+    font-size: 6px;
+  }
+
+  .section-about__border {
+    padding: 5px 0 0 10px;
+  }
+
+  .section-description__icon-box img {
+    width: 100px;
+  }
+
+  .section-description__icon-box {
+    column-gap: 20px;
+  }
+
+  .section-description__title {
+    font-size: 30px;
+  }
+
+  .section-description__text {
+    font-size: 10px;
+    width: 400px;
+  }
+
+  .section-map {
+    margin-bottom: 10px;
+  }
+
+  .section-map__title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .iframe {
+    width: 400px;
+    height: 250px;
+  }
+
+  .line {
+    margin-bottom: 10px;
+  }
+}
+
+/*----------------410--------------------*/
+
+@media (max-width: 410px) {
+  header {
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    margin-bottom: 10px;
+  }
+
+  .ul {
+    column-gap: 10px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+
+  .section-about {
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .section-about__block {
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    padding-top: 4px;
+  }
+
+  .section-about__title {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  .section-about__text {
+    font-size: 3px;
+  }
+
+  .section-about__border {
+    padding: 3px 0 0 3px;
+  }
+
+  .section-description__icon-box img {
+    width: 80px;
+  }
+
+  .section-description__icon-box {
+    column-gap: 10px;
+  }
+
+  .section-description__title {
+    font-size: 20px;
+  }
+
+  .section-description__text {
+    font-size: 10px;
+    width: 300px;
+  }
+
+  .section-description {
+    margin-bottom: 10px;
+  }
+
+  .section-map__title {
+    font-size: 10px;
+  }
+
+  .iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
